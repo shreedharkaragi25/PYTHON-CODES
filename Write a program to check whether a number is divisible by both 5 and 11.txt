@@ -1,0 +1,5 @@
+i = int(input("Enter a number: "))
+if i % 5 == 0 and i % 11 == 0:
+    print(f"{i} is divisible by both 5 and 11")
+else:
+    print(f"{i} is not divisible by both 5 and 11")

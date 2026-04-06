@@ -1,0 +1,9 @@
+ch = input("Enter characters: ")
+
+for c in ch:
+    if c.isdigit():
+        print(c, "is a Digit")
+    elif c.isalpha():
+        print(c, "is an Alphabet")
+    else:
+        print(c, "is a Special Character")

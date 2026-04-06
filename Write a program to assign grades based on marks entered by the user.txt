@@ -1,0 +1,14 @@
+Write a program to assign grades based on marks entered by the user.
+
+int = int(input("Enter your marks: "))
+if int >= 90:
+    print("Grade: A")
+elif int >= 80:
+    print("Grade: B")   
+elif int >= 70:
+    print("Grade: C")
+elif int >= 60:
+    print("Grade: D")
+else:
+    print("Grade: F")
+     
