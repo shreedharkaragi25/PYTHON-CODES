@@ -1,0 +1,19 @@
+# Q4. Dictionary Student Record
+
+print("\n" + "=" * 50)
+print("Q4. Dictionary Student Record")
+print("=" * 50)
+
+student = {
+    "name"  : "Rahul Kumar",
+    "roll"  : 101,
+    "branch": "Computer Science",
+    "marks" : 75
+}
+
+print("Before update:", student)
+student["marks"] = 89
+print("After updating marks to 89:")
+print("Keys  :", list(student.keys()))
+print("Values:", list(student.values()))
+
